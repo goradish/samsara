@@ -34,9 +34,9 @@ define(function (require, exports, module) {
                     classes : ['dot']
                 });
                 dots.push(dot);
+								dotLayout.push(dot);
             }
 
-            dotLayout.addItems(dots);
 
             // Create the main dot
             var mainDot = new Surface({
